@@ -6,7 +6,7 @@ from pygame import mixer
 import time
 
 mixer.init()
-sound = mixer.Sound('C:\\Users\\tatan\\Downloads\\Drowsiness detection\\Drowsiness detection\\alarm.wav')
+sound = mixer.Sound('alarm.wav')
 
 face = cv2.CascadeClassifier('haarcascade_frontalface_alt.xml')
 leye = cv2.CascadeClassifier('haarcascade_lefteye_2splits.xml')
